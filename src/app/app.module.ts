@@ -10,11 +10,7 @@ import { ProductService } from './product.service';
 import { ProductTracklistingComponent } from './product-tracklisting/product-tracklisting.component';
 import { ProductListComponent } from './product-list/product-list.component';
 import { RouterModule, Routes } from '@angular/router';
-
 const appRoutes: Routes = [];
-appRoutes[0].path = 'products';
-appRoutes[0].component = 'ProductListComponent';
-
 @NgModule({
   declarations: [
     AppComponent,
